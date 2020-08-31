@@ -1,0 +1,64 @@
+body {
+	font-size: 16px;
+	color: black;
+	background-color: white;
+	font-family: sans-serif;
+}
+
+h2 {
+	font-size: 1.8em;
+	padding-bottom: 15px;
+	font-weight: bold;
+}
+
+#menu-text {
+	background-color: #dcd0a6;
+	padding: 0px 20px 10px 20px;
+}
+
+#menu-text div {
+	text-align: center;
+	padding-top: 10px;
+	font-size: 1.3em;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: #b1b9ae;
+	border-radius: 0;
+	border: 0;
+	padding-top: 10px;
+}
+
+#header-nav .navbar-brand { /*Restaurant Name*/
+	font-size: 2em;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	margin: 0px 0px 10px 0px;
+}
+
+.navbar-header a:hover, .navbar-header a:focus {
+	text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid white;
+}
+
+#collapsable-nav #nav-list a {
+	text-align: center;
+	font-size: 1.2em;
+	color: black;
+}
+
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+
+hr.divider {
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
